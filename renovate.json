@@ -2,4 +2,10 @@
   "extends": [
     "config:best-practices"
   ],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["n8n-io/n8n"],
+      "overrideDatasource": "github-releases"
+    }
 }
