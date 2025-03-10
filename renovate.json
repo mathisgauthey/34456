@@ -8,7 +8,7 @@
         "matchPackageNames": ["ghcr.io/n8n-io/n8n"],
         "overridePackageName": "n8n-io/n8n",
         "overrideDatasource": "github-releases",
-        "extractVersion": "(?<=@)(\\d+\\.\\d+\\.\\d+)"
+        "extractVersion": "@(\\d+\\.\\d+\\.\\d+)"
       }
   ]
 }
