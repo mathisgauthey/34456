@@ -6,8 +6,8 @@
       {
         "matchDatasources": ["docker"],
         "matchPackageNames": ["ghcr.io/n8n-io/n8n"],
-        "overridePackageName": "n8n-io/n8n/releases",
-        "overrideDatasource": "github-releases",
+        "overridePackageName": "n8n-io/n8n",
+        "overrideDatasource": "github-tags",
         "followTag": "latest"
       }
   ]
