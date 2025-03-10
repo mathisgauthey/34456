@@ -7,7 +7,7 @@
         "matchDatasources": ["docker"],
         "matchPackageNames": ["ghcr.io/n8n-io/n8n"],
         "overridePackageName": "n8n-io/n8n",
-        "overrideDatasource": "github-releases",
+        "overrideDatasource": "github-tags",
         "extractVersion": "@(\\d+\\.\\d+\\.\\d+)"
       }
   ]
