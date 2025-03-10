@@ -24,7 +24,7 @@ services:
       retries: 10
 
   n8n:
-    image: ghcr.io/n8n-io/n8n:1.78.0
+    image: ghcr.io/n8n-io/n8n:1.78.0@sha256:762ba5de53262c257d14aa875b565c4ade9f870fef4dab36bb79951f0ae06b87
     restart: always
     environment:
       - DB_TYPE=postgresdb
