@@ -6,7 +6,8 @@
       {
         "matchDatasources": ["docker"],
         "matchPackageNames": ["n8n-io/n8n"],
-        "overrideDatasource": "github-releases"
+        "overrideDatasource": "github-releases",
+        "followTag": "latest"
       }
   ]
 }
